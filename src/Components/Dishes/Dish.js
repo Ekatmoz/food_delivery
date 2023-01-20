@@ -1,9 +1,12 @@
 const Dish = ({dish}) => {
 
-  const {id, price, img, name} = dish;
-  return ( <div key={id}>
-    <p>{name}</p>
-
+  return ( <div key={dish.id}>
+    <img src={`./${dish.img}.jpg`} alt="food"/>
+    <p>{dish.name}</p>
+    <p>$ {dish.price}</p>
+    {/* TO FIX LATER*/}
+    <button>How many portions???</button>
+    <button>Add to cart</button>
   </div> );
 }
  
