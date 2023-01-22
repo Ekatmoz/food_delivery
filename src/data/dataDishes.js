@@ -23,49 +23,49 @@ const dataDishes = [
 {
     id: 4,
     price: 40,
-    img: 'baked-salmon',
+    img: 'bakedsalmon',
     name: 'Baked Salmon',
     category: 'SEAFOOD'
 },
 {
   id: 5,
   price: 15,
-  img: 'cheese-balls',
+  img: 'cheeseballs',
   name: 'Cheese balls',
   category: 'APPETIZERS'
 },
 {
   id: 6,
   price: 20,
-  img: 'easy-pasta',
+  img: 'easypasta',
   name: 'Easy Pasta',
   category: 'ITALIAN'
 },
 {
   id: 7,
   price: 25,
-  img: 'spag-tomato',
+  img: 'spagtomato',
   name: 'Spaghetti',
   category: 'ITALIAN'
 },
 {
   id: 8,
   price: 20,
-  img: 'mixed-pizza',
+  img: 'mixedpizza',
   name: 'Pizza',
   category: 'ITALIAN'
 },
 {
   id: 9,
   price: 20,
-  img: 'spring-rolls',
+  img: 'springrolls',
   name: 'Spring Rolls',
   category: 'APPETIZERS'
 },
 {
   id: 10,
   price: 15,
-  img: 'tomato-salad',
+  img: 'tomatosalad',
   name: 'Tomato Salad',
   category: 'SALADS'
 },
