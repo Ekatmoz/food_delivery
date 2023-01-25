@@ -29,3 +29,6 @@ img {
 .categoryButtonSelected:hover {
   background-color: green;
 }
+.icon {
+  width: 20px;
+}
