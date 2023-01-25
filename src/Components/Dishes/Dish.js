@@ -6,7 +6,7 @@ import ChangeQuantity from "../Cart/ChangeQuantity";
 const Dish = ({dish}) => {
   const [quantity, setQuantity] = useState(1);
   const dispatch = useDispatch();
-  return ( <div key={dish.id}>
+  return ( <div>
     <img src={`./${dish.img}.jpg`} alt="food"/>
     <p>{dish.name}</p>
     <p>$ {dish.price}</p>
